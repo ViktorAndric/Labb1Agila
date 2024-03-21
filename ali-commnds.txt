@@ -1,0 +1,36 @@
+9. Remote
+ Git remote
+Check the configuration of the remote server:
+$ git remote -v
+Add a remote for the repository:
+$ git remote add <short name><remote URL>
+Fetch the data from remote server
+$ git fetch <Remote>
+Remove a remote connection from the repository:
+$ git remote rm <destination>
+Rename remote server:
+$ git remote rename <old name><new name>
+Show additional information about a particular remote:
+$ git remote show <remote>
+Change remote:
+$ git remote set-url <remote name><newURL>
+ Git origin master
+Push data to remote server:
+$ git push origin master
+Pull data from remote server:
+$ git pull origin master
+10. Pushing Updates
+ Git push
+Transfer the commits from your local repository to a remote server.
+Push data to remote server:
+$ git push origin master
+Force push data:
+$ git push <remote><branch> -f
+Delete a remote branch by push command:
+$ git push origin -delete edited
+11. Pulling updates
+ Git pull
+Pull the data from the server:
+$ git pull origin master
+Pull a remote branch:
+$ git pull <remot
