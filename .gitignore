@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.viktorComando.txt
+*.oliver.txt
+*.ali-commnds.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
