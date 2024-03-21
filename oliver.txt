@@ -1,0 +1,43 @@
+Set the name:
+$ git config --global user.name "User name"
+
+Set the email:
+$ git config --global user.email "himanshudubey481@gmail.com"
+
+Set the default editor:
+$ git config --global core.editor Vim
+
+Check the setting:
+$ git config -list
+
+Set up an alias for each command:
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+
+2. Starting a project
+ Git init
+
+Create a local repository
+$ git init <Repo Name>
+
+ Git clone
+Make a local copy of the server repository.
+$ git clone <remote Url>
+
+3. Local changes
+ Git add
+Add a file to staging (Index) area
+$ git add Filename
+Add all files of a repo to staging (Index) area
+$ git add*
+ Git commit
+Record or snapshots the file permanently in the version history with a
+message
+$ git commit -m " Commit Message"
+4. Track changes
+ Git diff
+Track the changes that have not been staged:
+$ git diff
+Track the changes that have staged but not committed:
