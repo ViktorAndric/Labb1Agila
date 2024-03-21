@@ -29,6 +29,46 @@ Saving stashes with a message:
 $ git stash save "<Stashing Message>"
 Check the stored stashes:
 $ git stash list
+ Git remote
+Check the configuration of the remote server:/
+Add a remote for the repository: 
+$ git remote add <short name><remote URL>
+Fetch the data from remote server 
+$ git fetch <Remote>
+Remove a remote connection from the repository: 
+$ git remote rm <destination> 
+Rename remote server: 
+$ git remote rename <old name><new name>
+Show additional information about a particular remote: 
+$ git remote show <remote>
+Show additional information about a particular remote: 
+$ git remote show <remote>
+Change remote: 
+$ git remote set-url <remote name><newURL>
+Git origin master 
+Push data to remote server: 
+$ git push origin master
+Pull data from remote server: 
+$ git pull origin master 
+ Git push 
+Transfer the commits from your local repository to a remote server. 
+Push data to remote server: 
+$ git push origin master  
+Force push data: 
+$ git push <remote><branch> -f 
+Delete a remote branch by push command:
+$ git push origin -delete edited
+Git pull
+Pull the data from the server:
+$ git pull origin master
+Pull a remote branch:
+$ git pull <remote branch URL>
+Downloads branches and tags from one or more repositories.
+Fetch the remote repository:
+$ git fetch <repository Url>
+Fetch a specific branch:
+$ git fetch <branch URL><branch name>
+     
     </p>
 </body>
 </html>
